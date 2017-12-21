@@ -27,3 +27,7 @@ group_title.click()
 inp_xpath = '//div[@class="input"][@dir="auto"][@data-tab="1"]'
 input_box = wait.until(EC.presence_of_element_located((
     By.XPATH, inp_xpath)))
+group_title.click()
+inp_xpath = '//div[@class="input"][@dir="auto"][@data-tab="1"]'
+input_box = wait.until(EC.presence_of_element_located((
+    By.XPATH, inp_xpath)))
